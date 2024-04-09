@@ -3,7 +3,7 @@
 BN=$(basename "$0")
 #THIS=$(realpath "$0")
 THIS="$(cd "$(dirname -- "$0")"; pwd -P)/$BN"
-REPO='https://raw.githubusercontent.com/luckman212/rut-fw/main'
+REPO='https://raw.githubusercontent.com/AnttiJalomaki/rut-fw/main'
 ID='fwup' #do not use /'s in the ID or sed will break
 PIDFILE=/var/run/$ID.pid
 CT='/etc/crontabs/root'
